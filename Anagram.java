@@ -47,7 +47,7 @@ public class Anagram {
 		String lowerStr = str.toLowerCase();
 		StringBuilder result = new StringBuilder();
 		for (char ch : lowerStr.toCharArray()){
-			if (Character.isLetter(ch) || ch == ' '){
+			if (Character.isLetter(ch)){
 				result.append(ch);
 			}
 		}
